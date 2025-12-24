@@ -1,5 +1,5 @@
 {
-  "name": "react-smart-hooks",
+  "name": "@dineshsharma07/react-smart-hooks",
   "version": "1.0.0",
   "description": "A collection of reusable React hooks for React and Next.js projects",
   "main": "dist/index.js",
@@ -30,7 +30,7 @@
     "react-hooks",
     "custom-hooks"
   ],
-  "author": "",
+  "author": "dineshsharma07",
   "license": "MIT",
   "peerDependencies": {
     "react": ">=16.8.0",
@@ -59,7 +59,11 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/dineshsharma07/react-smart-hooks.git"
+  },
+  "homepage": "https://github.com/dineshsharma07/react-smart-hooks#readme",
+  "bugs": {
+    "url": "https://github.com/dineshsharma07/react-smart-hooks/issues"
   }
 }
 

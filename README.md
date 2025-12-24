@@ -255,10 +255,6 @@ MIT
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## ⭐ Show Your Support
-
-If you find this package useful, please give it a star!
-
 ## 🧪 Testing
 
 ### Automated Tests
