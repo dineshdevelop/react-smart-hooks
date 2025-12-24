@@ -59,11 +59,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dineshsharma07/react-smart-hooks.git"
+    "url": "git+https://github.com/dineshdevelop/react-smart-hooks.git"
   },
-  "homepage": "https://github.com/dineshsharma07/react-smart-hooks#readme",
+  "homepage": "https://github.com/dineshdevelop/react-smart-hooks#readme",
   "bugs": {
-    "url": "https://github.com/dineshsharma07/react-smart-hooks/issues"
+    "url": "https://github.com/dineshdevelop/react-smart-hooks/issues"
   }
 }
 
