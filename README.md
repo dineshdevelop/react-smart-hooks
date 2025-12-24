@@ -1,8 +1,8 @@
-# react-smart-hooks 🚀
+# @dineshsharma07/react-smart-hooks 🚀
 
-[![npm version](https://img.shields.io/npm/v/react-smart-hooks)](https://www.npmjs.com/package/react-smart-hooks)
-[![npm downloads](https://img.shields.io/npm/dm/react-smart-hooks)](https://www.npmjs.com/package/react-smart-hooks)
-[![License](https://img.shields.io/npm/l/react-smart-hooks)](https://github.com/YOUR_USERNAME/react-smart-hooks/blob/main/LICENSE)
+[![npm version](https://img.shields.io/npm/v/@dineshsharma07/react-smart-hooks)](https://www.npmjs.com/package/@dineshsharma07/react-smart-hooks)
+[![npm downloads](https://img.shields.io/npm/dm/@dineshsharma07/react-smart-hooks)](https://www.npmjs.com/package/@dineshsharma07/react-smart-hooks)
+[![License](https://img.shields.io/npm/l/@dineshsharma07/react-smart-hooks)](https://github.com/dineshdevelop/react-smart-hooks/blob/main/LICENSE)
 
 A collection of reusable React hooks for React and Next.js projects. Lightweight, easy to use, and production-ready.
 
@@ -17,11 +17,11 @@ A collection of reusable React hooks for React and Next.js projects. Lightweight
 ## 📦 Installation
 
 ```bash
-npm install react-smart-hooks
+npm install @dineshsharma07/react-smart-hooks
 # or
-yarn add react-smart-hooks
+yarn add @dineshsharma07/react-smart-hooks
 # or
-pnpm add react-smart-hooks
+pnpm add @dineshsharma07/react-smart-hooks
 ```
 
 ## 🎯 Available Hooks
@@ -31,7 +31,7 @@ pnpm add react-smart-hooks
 Debounce a value to delay updates until after a specified delay.
 
 ```jsx
-import { useDebounce } from 'react-smart-hooks';
+import { useDebounce } from '@dineshsharma07/react-smart-hooks';
 
 function SearchComponent() {
   const [searchTerm, setSearchTerm] = useState('');
@@ -67,7 +67,7 @@ function SearchComponent() {
 Sync state with localStorage, automatically handling serialization and SSR.
 
 ```jsx
-import { useLocalStorage } from 'react-smart-hooks';
+import { useLocalStorage } from '@dineshsharma07/react-smart-hooks';
 
 function UserPreferences() {
   const [theme, setTheme] = useLocalStorage('theme', 'light');
@@ -102,7 +102,7 @@ function UserPreferences() {
 Track window dimensions for responsive design.
 
 ```jsx
-import { useWindowSize } from 'react-smart-hooks';
+import { useWindowSize } from '@dineshsharma07/react-smart-hooks';
 
 function ResponsiveComponent() {
   const { width, height } = useWindowSize();
@@ -130,7 +130,7 @@ function ResponsiveComponent() {
 Get the previous value of a state or prop.
 
 ```jsx
-import { usePrevious } from 'react-smart-hooks';
+import { usePrevious } from '@dineshsharma07/react-smart-hooks';
 
 function Counter() {
   const [count, setCount] = useState(0);
@@ -158,7 +158,7 @@ function Counter() {
 Copy text to clipboard with success/error states.
 
 ```jsx
-import { useCopyToClipboard } from 'react-smart-hooks';
+import { useCopyToClipboard } from '@dineshsharma07/react-smart-hooks';
 
 function CopyButton() {
   const [copied, copy, error] = useCopyToClipboard();
@@ -188,7 +188,7 @@ function CopyButton() {
 
 ```jsx
 import { useState, useEffect } from 'react';
-import { useDebounce } from 'react-smart-hooks';
+import { useDebounce } from '@dineshsharma07/react-smart-hooks';
 
 function SearchPage() {
   const [query, setQuery] = useState('');
@@ -225,7 +225,7 @@ function SearchPage() {
 ### Next.js Example: Theme Switcher with localStorage
 
 ```jsx
-import { useLocalStorage } from 'react-smart-hooks';
+import { useLocalStorage } from '@dineshsharma07/react-smart-hooks';
 
 export default function ThemeSwitcher() {
   const [theme, setTheme] = useLocalStorage('theme', 'light');
